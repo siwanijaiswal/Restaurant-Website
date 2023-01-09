@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+#services {
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+#services-container {
+  background: rgb(213, 216, 192);
+}
+
+#services .box {
+  padding: 0px;
+  margin: 15px 20px;
+  background: rgb(144, 197, 205);
+  margin-bottom: 15px;
+  cursor: pointer;
+  display:inline-block;
+}
+
+#services .box:hover {
+  color: black;
+  background-color: rgb(211, 236, 236);
+}
+
+#services .box img {
+  height: 300px;
+  width: 340px;
+  margin: auto;
+  display: block;
+}
+
+#about h1 {
+  font-size: 50px;
+}
